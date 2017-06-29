@@ -9,8 +9,10 @@ dnsutils
 git  
 iputils-ping  
 man  
-net-tools
+net-tools  
 openssh-server  
+python
 software-properties-common  
+sudo  
 vim  
 

@@ -8,7 +8,8 @@ MAINTAINER Hugh Pierce
 
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN apt-get update && apt-get install -y software-properties-common \
+RUN apt-get update && apt-get install -y software-properties-common sudo \
     dnsutils openssh-server bash-completion vim command-not-found net-tools \
-    iputils-ping git man && apt-get upgrade -y && cp /etc/skel/.bashrc /root/
+    iputils-ping python git man && apt-get upgrade -y && \
+    cp /etc/skel/.bashrc /root/
 
