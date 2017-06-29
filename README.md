@@ -9,6 +9,7 @@ dnsutils
 git  
 iputils-ping  
 man  
+net-tools
 openssh-server  
 software-properties-common  
 vim  
