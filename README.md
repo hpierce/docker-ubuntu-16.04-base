@@ -11,6 +11,5 @@ iputils-ping
 man  
 openssh-server  
 software-properties-common  
-supervisor  
 vim  
 
