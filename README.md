@@ -14,5 +14,6 @@ openssh-server
 python
 software-properties-common  
 sudo  
+supervisor
 vim  
 
