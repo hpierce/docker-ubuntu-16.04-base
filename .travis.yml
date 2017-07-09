@@ -1,0 +1,13 @@
+sudo: required
+
+language: bash
+
+services:
+  - docker
+
+script:
+  - docker build -t hpierce/docker-ubuntu-16.04-base
+
+notifications:
+  email: false
+
