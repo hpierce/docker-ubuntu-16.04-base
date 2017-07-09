@@ -17,3 +17,4 @@ sudo
 supervisor
 vim  
 
+Added Travis
